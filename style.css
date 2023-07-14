@@ -1,0 +1,70 @@
+.top-bar {
+  background-color: #f5f5f5;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.top-bar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.top-bar ul li {
+  margin-right: 10px;
+}
+
+.top-bar ul li a {
+  text-decoration: none;
+  color: #333;
+  padding: 5px;
+}
+
+.logo {
+  margin-right: 10px;
+}
+
+.search-bar {
+  margin-left: auto;
+}
+
+.search-bar input[type="text"] {
+  padding: 5px;
+}
+
+/* CSS for sidebar 
+.sidebar {
+  width: 250px;
+  height: 100vh;
+  background-color: #f5f5f5;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-top: 60px;
+  transition: left 0.3s;
+}
+
+.sidebar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar ul li {
+  padding: 10px;
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* CSS for content area */
+.content {
+  margin-left: 250px;
+  padding: 20px;
+}
